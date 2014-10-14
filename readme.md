@@ -1,24 +1,24 @@
-PostgreSQL -- Simple PostgreSQL wrapper with prepared statements
+PostgreSQL -- Simple framework para PostgreSQL con funciones preparadas.
 <hr>
-### Table of Contents
-**[Initialization](#initialization)**  
+### Tabla de Contenidos
+**[Instalación](#instatalación)**  
 
-### Initialization
-To utilize this class, first import MysqliDb.php into your project, and require it.
+### Instalación
+Para utilizar esta clase debe cargarla -si no tiene definido un autoload- con la sintáxis correspondiente.
 
 ```php
-require_once ('MysqliDb.php');
+require_once ('PostgreSQLdb.class.php');
 ```
 
-After that, create a new instance of the class.
+Posterior a eso, debe crear una nueva instancia y configurar los datos de acceso a la misma.
 
 ```php
 $db = new MysqliDb ('host', 'username', 'password', 'databaseName');
 ```
 
-Its also possible to set a table prefix:
+También es posible configurar un prefix para sus tablas,
 ```php
 $db->setPrefix ('my_');
 ```
 
-Next, prepare your data, and call the necessary methods. 
+Luego, prepara tus datos, y llama a los métodos necesarios.
