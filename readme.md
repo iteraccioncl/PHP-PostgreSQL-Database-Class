@@ -1,9 +1,9 @@
 PostgreSQL -- Simple framework para PostgreSQL con funciones preparadas.
 <hr>
 ### Tabla de Contenidos
-**[Instalación](#instatalación)**  
+**[Instalacion](#instatalacion)**  
 
-### Instalación
+### Instalacion
 Para utilizar esta clase debe cargarla -si no tiene definido un autoload- con la sintáxis correspondiente.
 
 ```php
